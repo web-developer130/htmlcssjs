@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" href="atom.xml" type="application/atom+xml" title="Atom">
+    <link rel="alternate" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>HTML5-website</title>
+    <style>
+        #box {
+            width: 300px;
+            height: 100px;
+            padding: 35px;
+            background-color: rgb(43, 226, 226);
+            border: .5em solid rgb(241, 16, 16);
+            box-sizing: border-box;
+            margin-left: 20em;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- paragraph -->
+    <p>
+        Lorem ipsum dolor sit
+        amet consectetur adipisicing
+        elit. Iste quo nulla odit molestiae,
+        eveniet sit adipisci minus ullam iusto? Non temporibus
+        omnis aliquam iusto dignissimos animi fugit
+        consequatur
+        excepturi sequi.
+    </p>
+    <!-- heading TAG -->
+    <h1>hello all code</h1>
+    <h2>hello all code</h2>
+    <h3>hello all code</h3>
+    <h4>hello all code</h4>
+    <h5>hello all code</h5>
+    <h6>hello all code</h6>
+
+    <!-- BOLD ITALIC UNDERLINE TAG -->
+    <b>this is bold fromate</b><br>
+    <i>this is in itlic formate</i><br>
+    <u>this text is underlined</u><br>
+
+    <i><u><b>this text is all in one</b></u></i><br>
+    <strong>this will be similar to bold</strong><br>
+    <em>this is emphesis the tags italic</em><br>
+    <cite>this cite tags italic</cite><br>
+    <!-- MARK TAG -->
+    <mark>this hilighted text</mark>
+
+
+    <!-- CODE tags -->
+    <code>
+    var a=1;
+    console.log(a);
+</code><br>
+
+
+    <!-- SMALL Tag -->
+    <small><b>&copy;this is write is small text (copyright 2022) &reg;&trade;</b></small>
+    math:(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab<br>
+    water chemical formmula :H<sub>2</sub>O<br>
+
+    <!-- delete tag -->
+    <del>this is deleted items</del><br>
+    <ins>this is new caluse added to the document</ins><br>
+    <p>hello,<q>How are you?</q></p><br>
+    <p>
+        the <abbr title="World Wild Web Consortium">W3C</abbr> is the main organization
+    </p>
+    <p>
+        <!-- address tag -->
+        hete is the address:
+    <address>
+        1st Main
+        Richmond Road
+    </address>
+    </p>
+    <p>
+        hello &nbsp; how are you?
+    </p>
+
+    <!-- anchor tag -->
+    <a href="https://google.com/" target="_blank">google</a><br>
+
+    <!-- image tag -->
+    <img src="1.png" alt="pandit mhamana madan mohan malaviya">
+
+    <!-- ordered and unordered list tags -->
+
+    <ul>
+        <li>vikas</li>
+        <li>vikas</li>
+        <li>vikas</li>
+        <li>vikas</li>
+        <li>vikas</li>
+        <li>vikas</li>
+    </ul>
+
+    <ol type="1">
+        <li>nayak</li>
+        <li>nayak</li>
+        <li>nayak</li>
+        <li>nayak</li>
+    </ol>
+
+    <ol type="a">
+        <li>nayak</li>
+        <li>nayak</li>
+        <li>nayak</li>
+        <li>nayak</li>
+    </ol>
+    <ol type="A">
+        <li>nayak</li>
+        <li>nayak</li>
+        <li>nayak</li>
+        <li>nayak</li>
+    </ol>
+    <ol type="I">
+        <li>nayak</li>
+        <li>nayak</li>
+        <li>nayak</li>
+        <li>nayak</li>
+    </ol>
+
+
+
+    <!-- css style properties -->
+    <h1 style="text-decoration-color: aqua;">this text</h1>
+    <!-- box model -->
+    <p id="box">this is box model</p>
+
+
+    <!-- table tag -->
+    <table>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="1">Email</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>vikas</td>
+            <td>f.com</td>
+            <td>bostan</td>
+        </tr>
+        <tr>
+            <td>viky</td>
+            <td>b.com</td>
+            <td>californiya</td>
+        </tr>
+    </table>
+    <div class="container my-4">
+        <form>
+            <div>
+                <lable>Username</lable>
+                <input type="text" class="form-control w-50">
+            </div>
+            <div>
+                <lable>Password</lable>
+                <input type="password" class="form-control w-50">
+            </div>
+     <div>
+         <lable>Comments</lable>
+         <textarea class="form-control w-50"></textarea>
+     </div>
+            <div>
+                <lable>country</lable>
+                <select class="form-control w-50">
+                    <option value="1">india</option>
+                    <option value="2">russia</option>
+                    <option value="3">nepal</option>
+                    <option value="4">isral</option>
+                </select>
+            </div>
+            <div>
+    
+                <button type="button" class="btn btn-primary" style="margin:2em">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+<!-- how to comment do "ctr+/" -->
+<!-- <h2>hello word</h2> -->
+
+
+</html>
